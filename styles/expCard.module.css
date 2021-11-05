@@ -1,0 +1,70 @@
+.expCard {
+    width: 50%;
+    margin: 0 auto 50px;
+}
+.expCard .companyName {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 46px;
+}
+.expCard .position {
+    margin-bottom: 5px !important;
+    margin-top: 20px !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+}
+.expCard .time {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+}
+.expCard .langs {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.expCard .langs .lang_button {
+    border: none;
+    outline: none;
+    background: #A6A7A8;
+    border-radius: 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    width: 150px;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+.expCard .desc {
+    font-style: normal;
+    font-weight: 500;
+    width: 70%;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+@media only screen and (max-width: 900px) {
+    .expCard {
+        width: 100%;
+        text-align: center;
+    }
+    .expCard .desc {
+        width: 100%;
+    }
+    .expCard .langs {
+        flex-direction: column;
+    }
+    .expCard .langs .lang_button {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 20px 20px;
+        margin-right: 0;
+    }
+}

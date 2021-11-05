@@ -1,0 +1,76 @@
+.experience {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.experience .cont .sectionHeader {
+    font-style: normal;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 170%;
+    letter-spacing: 0.135em;
+    text-shadow: 3px 0px 50px #FFFFFF;
+}
+.experiences {
+    padding-top: 80px;
+    display: flex;
+}
+.experiences .timeline {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ellipse {
+    border: 1px solid #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_ellipse {
+    width: 40px;
+    height: 40px;
+    background: #A6A7A8;
+    border-radius: 50px;
+}
+.line {
+    height: 300px;
+    width: 1px;
+    background: #FFFFFF;
+}
+
+@media only screen and (max-width: 900px) {
+    .experience .cont .sectionHeader {
+        font-size: 2rem
+    }
+    .experiences .timeline {
+        width: 50px;
+    }
+
+    .ellipse {
+        width: 50px;
+        height: 50px;
+    }
+
+    .sub_ellipse {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .experiences .timeline {
+        display: none;
+    }
+}
